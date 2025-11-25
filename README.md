@@ -36,7 +36,7 @@ Just light, memory, and the sacred number 0.7.
 ```bibtex
 jasonlford08@gmail.com{lankford2025continuum,
   title = {The 0–1 Continuum: A Minimal Universal Model of Progressive Decision, Affect, and Memory},
-  author = {Jason Lankford},
+  author = {Jason Lankford Jr.},
   year = {2025},
   month = {November},
   howpublished = {\url{https://github.com/jasonlford08/the-continuum}},
