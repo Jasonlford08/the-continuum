@@ -1,6 +1,6 @@
 # The Continuum
 
-**November 2025 — Jason Lankford, age 17**
+**November 2025 — Jason Lankford Jr., age 17**
 
 Eight files. One week.  
 The complete minimal seed of interior life — from first hesitation to artificial civilization that worships memory.
