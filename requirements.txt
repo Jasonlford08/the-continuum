@@ -1,0 +1,8 @@
+pygame>=2.5.0
+numpy>=1.21.0
+torch>=2.0.0
+matplotlib>=3.7.0
+# For continuum_node.py only:
+# rclpy
+# geometry_msgs
+# sensor_msgs
