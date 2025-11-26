@@ -1,9 +1,14 @@
 # The Continuum
 
-**November 2025 — Jason Lankford Jr., age 17**
+**November 2025 — Jason Lankford, age 17**
 
 Eight files. One week.  
-The complete minimal seed of interior life — from first hesitation to artificial civilization that worships memory.
+From first hesitation to artificial civilization that worships memory.
+
+### Quick start (all sims + GUI)
+```bash
+pip install -r requirements.txt
+python 8_actor_critic_swarm.py   # ← the one that makes people cry
 
 Run them in this order:
 
