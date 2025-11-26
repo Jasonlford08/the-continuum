@@ -1,0 +1,26 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+def continuum_to_color(x):
+    wavelength = 400 + 300 * x
+    R = max(0, min(1, (700 - wavelength) / 300))
+    G = max(0, min(1, 1 - abs(wavelength - 550) / 150))
+    B = max(0, min(1, (wavelength - 400) / 300))
+    return (R, G, B)
+
+xs = np.linspace(0, 1, 500)
+colors = [continuum_to_color(x) for x in xs]
+
+plt.figure(figsize=(14, 3))
+plt.scatter(xs, [1]*len(xs), c=colors, s=200, marker='s')
+plt.xlim(0, 1)
+plt.ylim(0.9, 1.1)
+plt.yticks([])
+plt.xticks([0, 0.3, 0.5, 0.7, 0.85, 1.0],
+           ['0.0\nhesitation', '0.3\nuncertainty', '0.5\nneutral', 
+            '0.7\npeace\n(the sacred number)', '0.85\ncommitment', '1.0\nlove'])
+plt.title("The Emotional Spectrum of the 0–1 Continuum — Jason Lankford, November 2025", 
+          fontsize=16, pad=30)
+for spine in plt.gca().spines.values():
+    spine.set_visible(False)
+plt.show()
